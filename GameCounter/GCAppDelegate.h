@@ -7,9 +7,17 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "GCFirstViewController.h"
+#import "GCSecondViewController.h"
 
 @interface GCAppDelegate : UIResponder <UIApplicationDelegate>
+{
+    GCFirstViewController *firstViewController;
+    GCSecondViewController *secondViewController;
+}
 
+@property (strong, nonatomic) GCFirstViewController *firstViewController;
+@property (strong, nonatomic) GCSecondViewController *secondViewController;
 @property (strong, nonatomic) UIWindow *window;
 
 @end

@@ -7,7 +7,28 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "GCFirstViewController.h"
+#import "GCGlobalVaribles.h"
 
 @interface GCSecondViewController : UIViewController
+{
+    GCGlobalVaribles *globalVaribles;
+    int playerCombatScore;
+    int monsterScore;
+}
+
+- (IBAction)playerStepper:(UIStepper *)sender;
+- (IBAction)monsterStepper:(UIStepper *)sender;
+- (void) setScoreLabel;
+- (void) setMessage;
+
+@property (weak, nonatomic) IBOutlet UIStepper *playerStepper;
+@property int playerCombatScore;
+@property int monsterScore;
+
+@property (weak, nonatomic) IBOutlet UILabel *combatScoreLabel;
+@property (weak, nonatomic) IBOutlet UILabel *monsterLabel;
+@property (weak, nonatomic) IBOutlet UILabel *message;
+@property (weak, nonatomic) IBOutlet UILabel *scoreLabel;
 
 @end

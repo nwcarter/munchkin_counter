@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B85689F71A34E08C00BCD541 /* GCGlobalVaribles.m in Sources */ = {isa = PBXBuildFile; fileRef = B85689F61A34E08C00BCD541 /* GCGlobalVaribles.m */; };
 		B8ABB9DC17B3CE01000A28D7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B8ABB9DB17B3CE01000A28D7 /* Foundation.framework */; };
 		B8ABB9DE17B3CE01000A28D7 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B8ABB9DD17B3CE01000A28D7 /* CoreGraphics.framework */; };
 		B8ABB9E017B3CE01000A28D7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B8ABB9DF17B3CE01000A28D7 /* UIKit.framework */; };
@@ -22,6 +23,8 @@
 		B8ABBA0017B3CE01000A28D7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B8ABB9DF17B3CE01000A28D7 /* UIKit.framework */; };
 		B8ABBA0817B3CE01000A28D7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B8ABBA0617B3CE01000A28D7 /* InfoPlist.strings */; };
 		B8ABBA0A17B3CE01000A28D7 /* GameCounterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B8ABBA0917B3CE01000A28D7 /* GameCounterTests.m */; };
+		B8ABBA1817B415F9000A28D7 /* launchImage.png in Resources */ = {isa = PBXBuildFile; fileRef = B8ABBA1617B415F9000A28D7 /* launchImage.png */; };
+		B8ABBA1917B415F9000A28D7 /* appIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = B8ABBA1717B415F9000A28D7 /* appIcon.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +38,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		B85689F51A34E08C00BCD541 /* GCGlobalVaribles.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCGlobalVaribles.h; sourceTree = "<group>"; };
+		B85689F61A34E08C00BCD541 /* GCGlobalVaribles.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCGlobalVaribles.m; sourceTree = "<group>"; };
 		B8ABB9D817B3CE01000A28D7 /* GameCounter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GameCounter.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B8ABB9DB17B3CE01000A28D7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		B8ABB9DD17B3CE01000A28D7 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -56,6 +61,8 @@
 		B8ABBA0517B3CE01000A28D7 /* GameCounterTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GameCounterTests-Info.plist"; sourceTree = "<group>"; };
 		B8ABBA0717B3CE01000A28D7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		B8ABBA0917B3CE01000A28D7 /* GameCounterTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GameCounterTests.m; sourceTree = "<group>"; };
+		B8ABBA1617B415F9000A28D7 /* launchImage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = launchImage.png; sourceTree = "<group>"; };
+		B8ABBA1717B415F9000A28D7 /* appIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = appIcon.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -120,6 +127,8 @@
 				B8ABB9ED17B3CE01000A28D7 /* Main.storyboard */,
 				B8ABB9F017B3CE01000A28D7 /* GCFirstViewController.h */,
 				B8ABB9F117B3CE01000A28D7 /* GCFirstViewController.m */,
+				B85689F51A34E08C00BCD541 /* GCGlobalVaribles.h */,
+				B85689F61A34E08C00BCD541 /* GCGlobalVaribles.m */,
 				B8ABB9F317B3CE01000A28D7 /* GCSecondViewController.h */,
 				B8ABB9F417B3CE01000A28D7 /* GCSecondViewController.m */,
 				B8ABB9F617B3CE01000A28D7 /* Images.xcassets */,
@@ -131,6 +140,8 @@
 		B8ABB9E217B3CE01000A28D7 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				B8ABBA1617B415F9000A28D7 /* launchImage.png */,
+				B8ABBA1717B415F9000A28D7 /* appIcon.png */,
 				B8ABB9E317B3CE01000A28D7 /* GameCounter-Info.plist */,
 				B8ABB9E417B3CE01000A28D7 /* InfoPlist.strings */,
 				B8ABB9E717B3CE01000A28D7 /* main.m */,
@@ -205,6 +216,9 @@
 				LastUpgradeCheck = 0500;
 				ORGANIZATIONNAME = "Nathan Carter";
 				TargetAttributes = {
+					B8ABB9D717B3CE01000A28D7 = {
+						DevelopmentTeam = 7E68G4BN39;
+					};
 					B8ABB9FB17B3CE01000A28D7 = {
 						TestTargetID = B8ABB9D717B3CE01000A28D7;
 					};
@@ -234,9 +248,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B8ABBA1817B415F9000A28D7 /* launchImage.png in Resources */,
 				B8ABB9F717B3CE01000A28D7 /* Images.xcassets in Resources */,
 				B8ABB9E617B3CE01000A28D7 /* InfoPlist.strings in Resources */,
 				B8ABB9EF17B3CE01000A28D7 /* Main.storyboard in Resources */,
+				B8ABBA1917B415F9000A28D7 /* appIcon.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -255,6 +271,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B85689F71A34E08C00BCD541 /* GCGlobalVaribles.m in Sources */,
 				B8ABB9F517B3CE01000A28D7 /* GCSecondViewController.m in Sources */,
 				B8ABB9EC17B3CE01000A28D7 /* GCAppDelegate.m in Sources */,
 				B8ABB9F217B3CE01000A28D7 /* GCFirstViewController.m in Sources */,
@@ -381,10 +398,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "GameCounter/GameCounter-Prefix.pch";
 				INFOPLIST_FILE = "GameCounter/GameCounter-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -394,10 +414,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "GameCounter/GameCounter-Prefix.pch";
 				INFOPLIST_FILE = "GameCounter/GameCounter-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -461,6 +484,7 @@
 				B8ABBA0F17B3CE01000A28D7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B8ABBA1017B3CE01000A28D7 /* Build configuration list for PBXNativeTarget "GameCounterTests" */ = {
 			isa = XCConfigurationList;
@@ -469,6 +493,7 @@
 				B8ABBA1217B3CE01000A28D7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
